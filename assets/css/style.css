@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header configuration which includes nav bar */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,6 +22,7 @@ header h1 {
     color: #d9dcd6;
 }
 
+/* Navigation bar specific configuration */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -43,10 +45,12 @@ a {
     text-decoration: none;
 }
 
+/* Paragraph configuraiton */
 p {
     font-size: 16px;
 }
 
+/* Main image configuration */
 #image-meeting {
     height: 800px;
     width: 100%;
@@ -55,6 +59,7 @@ p {
     background-position: center;
 }
 
+/* image float classes */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -65,12 +70,14 @@ p {
     margin-left: 25px;
 }
 
+
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* sidebar configuration */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -98,6 +105,7 @@ aside img {
     max-width: 150px;
 }
 
+/* Three main divided sections of page configuration */
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -116,6 +124,7 @@ main section h2 {
     font-size: 36px;
 }
 
+/* Footer configuration with copyright information */
 footer {
     padding: 30px;
     clear: both;
